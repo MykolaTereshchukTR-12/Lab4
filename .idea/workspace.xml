@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c07068a-87d4-4352-8acb-fbc1443a040a" name="Changes" comment="Commit 3. Attempting to create an array of numbers and populate it" />
+    <list default="true" id="1c07068a-87d4-4352-8acb-fbc1443a040a" name="Changes" comment="Commit 4. Successful filling of the array with even numbers. Corresponding rewriting of the method for filling the array with odd numbers.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710450554492</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 4. Successful filling of the array with even numbers. Corresponding rewriting of the method for filling the array with odd numbers.">
+      <option name="closed" value="true" />
+      <created>1710450927085</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710450927085</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +107,7 @@
     <MESSAGE value="Commit 1. Start" />
     <MESSAGE value="Commit 2. Trying to create a class that was supposed to create, initialize, and populate arrays. Unsuccessfully." />
     <MESSAGE value="Commit 3. Attempting to create an array of numbers and populate it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 3. Attempting to create an array of numbers and populate it" />
+    <MESSAGE value="Commit 4. Successful filling of the array with even numbers. Corresponding rewriting of the method for filling the array with odd numbers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 4. Successful filling of the array with even numbers. Corresponding rewriting of the method for filling the array with odd numbers." />
   </component>
 </project>

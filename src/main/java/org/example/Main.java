@@ -7,5 +7,6 @@ public class Main {
 
         FiftyEvenOrNonEven fiftyEvenOrNonEven = new FiftyEvenOrNonEven();
         System.out.println(Arrays.toString(fiftyEvenOrNonEven.getEvenNumber()));
+        System.out.println(Arrays.toString(fiftyEvenOrNonEven.getNonEvenNumber()));
     }
 }

@@ -37,7 +37,7 @@ public class FiftyEvenOrNonEven {
         for(int i = 0; i <= 49; i++){
             int a = (int) (1000 * Math.random());
             if((a % 2) != 0){
-                evenNumber[i] = a;
+                nonEvenNumber[i] = a;
             }else{
                 i--;
             }
