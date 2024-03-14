@@ -5,6 +5,7 @@ public class FiftyEvenOrNonEven {
     private int[] nonEvenNumber = new int[50];
 
     public int[] getEvenNumber() {
+        fillerEven();
         return evenNumber;
     }
 
@@ -13,10 +14,35 @@ public class FiftyEvenOrNonEven {
     }
 
     public int[] getNonEvenNumber() {
+        fillerNonEven();
         return nonEvenNumber;
     }
 
     public void setNonEvenNumber(int[] nonEvenNumber) {
         this.nonEvenNumber = nonEvenNumber;
     }
+
+    public void fillerEven(){
+        for(int i: evenNumber){
+            int a = (int) (1000 * Math.random());
+            if((a % 2) == 0){
+                evenNumber[i] = a;
+            }else{
+                --i;
+            }
+        }
+    }
+
+    public void fillerNonEven(){
+        for(int i: evenNumber){
+            int a = (int) (1000 * Math.random());
+            if((a % 2) == 0){
+                evenNumber[i] = a;
+            }else{
+                --i;
+            }
+        }
+    }
+
+
 }
