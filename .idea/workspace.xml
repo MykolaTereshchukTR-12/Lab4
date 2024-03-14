@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c07068a-87d4-4352-8acb-fbc1443a040a" name="Changes" comment="Commit 2. Trying to create a class that was supposed to create, initialize, and populate arrays. Unsuccessfully.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FiftyEvenOrNonEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FiftyEvenOrNonEven.java" afterDir="false" />
-    </list>
+    <list default="true" id="1c07068a-87d4-4352-8acb-fbc1443a040a" name="Changes" comment="Commit 3. Attempting to create an array of numbers and populate it" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,15 +29,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Микола/IdeaProjects/Lab4/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Микола/IdeaProjects/Lab4/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +71,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710448217122</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 3. Attempting to create an array of numbers and populate it">
+      <option name="closed" value="true" />
+      <created>1710450554492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710450554492</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,17 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 1. Start" />
     <MESSAGE value="Commit 2. Trying to create a class that was supposed to create, initialize, and populate arrays. Unsuccessfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 2. Trying to create a class that was supposed to create, initialize, and populate arrays. Unsuccessfully." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Commit 3. Attempting to create an array of numbers and populate it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 3. Attempting to create an array of numbers and populate it" />
   </component>
 </project>

@@ -23,23 +23,23 @@ public class FiftyEvenOrNonEven {
     }
 
     public void fillerEven(){
-        for(int i: evenNumber){
+        for(int i = 0; i <= 49; i++){
             int a = (int) (1000 * Math.random());
             if((a % 2) == 0){
                 evenNumber[i] = a;
             }else{
-                --i;
+                i--;
             }
         }
     }
 
     public void fillerNonEven(){
-        for(int i: evenNumber){
+        for(int i = 0; i <= 49; i++){
             int a = (int) (1000 * Math.random());
-            if((a % 2) == 0){
+            if((a % 2) != 0){
                 evenNumber[i] = a;
             }else{
-                --i;
+                i--;
             }
         }
     }
