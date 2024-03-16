@@ -17,11 +17,11 @@ public class ArrayOperation {
 
     public void arrWhile(){
         int i = 0, j = 0;
-        while(i <= (mineArray.length - 1)) {
-            while(j <= mineArray.length) {
-                if (mineArray[i] >= mineArray[j]) {
-                    int m = mineArray[j];
-                    mineArray[j] = mineArray[i];
+        while(i < mineArray.length) {
+            while(j < (mineArray.length - i)) {
+                if (mineArray[j] < mineArray[j+i]) {
+                    int m = mineArray[i+1];
+                    mineArray[i+1] = mineArray[i];
                     mineArray[i] = m;
                 }
                 j++;
