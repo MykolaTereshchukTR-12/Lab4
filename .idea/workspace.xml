@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c07068a-87d4-4352-8acb-fbc1443a040a" name="Changes" comment="Commit 4. Successful filling of the array with even numbers. Corresponding rewriting of the method for filling the array with odd numbers.">
+    <list default="true" id="1c07068a-87d4-4352-8acb-fbc1443a040a" name="Changes" comment="Commit 5. Successful filling of the array with even numbers. Corresponding rewriting of the method for filling the array with odd numbers.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -89,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710450927085</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit 5. Successful filling of the array with even numbers. Corresponding rewriting of the method for filling the array with odd numbers.">
+      <option name="closed" value="true" />
+      <created>1710451135151</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710451135151</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +117,7 @@
     <MESSAGE value="Commit 2. Trying to create a class that was supposed to create, initialize, and populate arrays. Unsuccessfully." />
     <MESSAGE value="Commit 3. Attempting to create an array of numbers and populate it" />
     <MESSAGE value="Commit 4. Successful filling of the array with even numbers. Corresponding rewriting of the method for filling the array with odd numbers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 4. Successful filling of the array with even numbers. Corresponding rewriting of the method for filling the array with odd numbers." />
+    <MESSAGE value="Commit 5. Successful filling of the array with even numbers. Corresponding rewriting of the method for filling the array with odd numbers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 5. Successful filling of the array with even numbers. Corresponding rewriting of the method for filling the array with odd numbers." />
   </component>
 </project>
