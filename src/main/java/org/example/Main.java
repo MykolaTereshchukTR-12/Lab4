@@ -18,5 +18,12 @@ public class Main {
         for(int i : arrayOperation.arrWhile()) {
             System.out.print(i + " ");
         }
+
+        System.out.println();
+
+        arrayOperation.setMineArray(array);
+        for(int i : arrayOperation.arrFor()) {
+            System.out.print(i + " ");
+        }
     }
 }
