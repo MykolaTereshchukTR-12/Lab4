@@ -3,30 +3,28 @@ package org.example;
 public class ArrayOperation {
     private int[] mineArray;
 
-    public ArrayOperation(int[] _array) {
-        this.mineArray = _array;
+    public void setMineArray(int[] mineArray) {
+        this.mineArray = mineArray;
     }
 
     public int[] getMineArray() {
         return mineArray;
     }
 
-    public void setMineArray(int[] _mineArray) {
-        this.mineArray = _mineArray;
-    }
-
-    public void arrWhile(){
-        int i = 0, j = 0;
-        while(i < mineArray.length) {
-            while(j < (mineArray.length - i)) {
-                if (mineArray[j] < mineArray[j+i]) {
-                    int m = mineArray[i+1];
-                    mineArray[i+1] = mineArray[i];
-                    mineArray[i] = m;
+    public int[] arrWhile(){
+        int i = 0, j;
+        while(i != mineArray.length - 1){
+            j = i + 1;
+            while(j != mineArray.length){
+                if(mineArray[j] < mineArray[i]){
+                    int tmd = mineArray[i];
+                    mineArray[i] = mineArray[j];
+                    mineArray[j] = tmd;
                 }
                 j++;
             }
             i++;
         }
+        return mineArray;
     }
 }

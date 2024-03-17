@@ -13,9 +13,9 @@ public class Main {
 
         int[] array = {2, 17, 13, 6, 22, 31, 45, 66, 100, -18};
 
-        ArrayOperation arrayOperation = new ArrayOperation(array);
-        arrayOperation.arrWhile();
-        for(int i : arrayOperation.getMineArray()){
+        ArrayOperation arrayOperation = new ArrayOperation();
+        arrayOperation.setMineArray(array);
+        for(int i : arrayOperation.arrWhile()) {
             System.out.print(i + " ");
         }
     }
