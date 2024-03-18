@@ -40,6 +40,4 @@ public class ArrayOperation {
         }
         return mineArray;
     }
-
-
 }
