@@ -40,4 +40,17 @@ public class ArrayOperation {
         }
         return mineArray;
     }
+
+    public int[] arrForInv() {
+        for (int i = mineArray.length - 1; i != 0; i--) {
+            for (int j = i + 1; j != 0; j--) {
+                if (mineArray[j] < mineArray[i]) {
+                    int tmd = mineArray[i];
+                    mineArray[i] = mineArray[j];
+                    mineArray[j] = tmd;
+                }
+            }
+        }
+        return mineArray;
+    }
 }

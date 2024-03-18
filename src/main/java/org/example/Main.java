@@ -37,5 +37,8 @@ public class Main {
             }
         }
         System.out.println("]");
+
+        arrayOperation.setMineArray(array);
+        System.out.println(Arrays.toString(arrayOperation.arrForInv()));
     }
 }
