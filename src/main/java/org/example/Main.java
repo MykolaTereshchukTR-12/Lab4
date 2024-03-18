@@ -15,15 +15,20 @@ public class Main {
 
         ArrayOperation arrayOperation = new ArrayOperation();
         arrayOperation.setMineArray(array);
-        for(int i : arrayOperation.arrWhile()) {
-            System.out.print(i + " ");
-        }
-
+        System.out.println(Arrays.toString(arrayOperation.arrWhile()));
         System.out.println();
 
         arrayOperation.setMineArray(array);
-        for(int i : arrayOperation.arrFor()) {
-            System.out.print(i + " ");
+        System.out.println(Arrays.toString(arrayOperation.arrFor()));
+        System.out.println();
+
+        arrayOperation.setMineArray(array);
+        System.out.print("[ ");
+        for(int i : arrayOperation.arrWhile()){
+            if((i % 2) != 0){
+                System.out.print(i + " ");
+            }
         }
+        System.out.print("]");
     }
 }
