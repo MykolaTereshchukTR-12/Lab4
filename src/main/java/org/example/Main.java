@@ -18,7 +18,8 @@ public class Main {
         System.out.println(Arrays.toString(arrayOperation.arrWhile()));
 
         arrayOperation.setMineArray(array);
-        System.out.println(Arrays.toString(arrayOperation.arrFor()));
+        System.out.println("Array output in ascending order - 1, in reverse order - 0: ");
+        System.out.println(Arrays.toString(arrayOperation.arrFor(scanner.nextInt())));
 
         arrayOperation.setMineArray(array);
         System.out.print("[ ");
@@ -31,7 +32,8 @@ public class Main {
 
         arrayOperation.setMineArray(array);
         System.out.print("[ ");
-        for(int i : arrayOperation.arrFor()){
+        System.out.println("Array output in ascending order - 1, in reverse order - 0: ");
+        for(int i : arrayOperation.arrFor(scanner.nextInt())){
             if((i % 2) == 0){
                 System.out.print(i + " ");
             }
@@ -39,6 +41,6 @@ public class Main {
         System.out.println("]");
 
         arrayOperation.setMineArray(array);
-        System.out.println(Arrays.toString(arrayOperation.arrForInv()));
+        System.out.println(Arrays.toString(arrayOperation.arrFor(scanner.nextInt())));
     }
 }

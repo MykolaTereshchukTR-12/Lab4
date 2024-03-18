@@ -28,26 +28,21 @@ public class ArrayOperation {
         return mineArray;
     }
 
-    public int[] arrFor() {
+    public int[] arrFor(int flag) {
         for (int i = 0; i != mineArray.length - 1; i++) {
             for (int j = i + 1; j != mineArray.length; j++) {
-                if (mineArray[j] < mineArray[i]) {
-                    int tmd = mineArray[i];
-                    mineArray[i] = mineArray[j];
-                    mineArray[j] = tmd;
-                }
-            }
-        }
-        return mineArray;
-    }
-
-    public int[] arrForInv() {
-        for (int i = 0; i != mineArray.length - 1; i++) {
-            for (int j = i + 1; j != mineArray.length; j++) {
-                if (mineArray[j] > mineArray[i]) {
-                    int tmd = mineArray[i];
-                    mineArray[i] = mineArray[j];
-                    mineArray[j] = tmd;
+                if(flag == 1) {
+                    if (mineArray[j] < mineArray[i]) {
+                        int tmd = mineArray[i];
+                        mineArray[i] = mineArray[j];
+                        mineArray[j] = tmd;
+                    }
+                }else if(flag == 0){
+                    if (mineArray[j] > mineArray[i]) {
+                        int tmd = mineArray[i];
+                        mineArray[i] = mineArray[j];
+                        mineArray[j] = tmd;
+                    }
                 }
             }
         }
