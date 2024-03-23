@@ -71,7 +71,7 @@ public class Main {
         arrayOperation.setMineArray(really);
         System.out.println("Sum of numbers of really array is " + arrayOperation.arrSum());
 
-        //4. Change the sign of all odd array elements.
+        //Task 4. Change the sign of all odd array elements.
         System.out.println("Inversion of odd array elements: ");
         System.out.println(Arrays.toString(arrayOperation.arrInvertionOddNumbers()));
     }
