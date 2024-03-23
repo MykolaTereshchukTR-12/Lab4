@@ -34,10 +34,11 @@ public class Main {
         //Task 2.3. Looping through the array with the while() loop and displaying numbers with an odd array number on the screen.
         System.out.println("Looping through an array with a while() loop:");
         arrayOperation.setMineArray(array);
+        int[] oddWhile = arrayOperation.arrWhile();
         System.out.print("[ ");
-        for(int i : arrayOperation.arrWhile()){
-            if((i % 2) != 0){
-                System.out.print(i + " ");
+        for(int i = 0; i != oddWhile.length; i++){
+            if(i % 2 == 1) {
+                System.out.print(oddWhile[i] + " ");
             }
         }
         System.out.println("]");
@@ -45,10 +46,11 @@ public class Main {
         //Task 2.4. Looping through the array with the for() loop and displaying numbers with an even array number on the screen.
         System.out.println("Looping through an array with a for() loop.");
         arrayOperation.setMineArray(array);
+        int[] evenFor = arrayOperation.arrFor(1);
         System.out.print("[ ");
-        for(int i : arrayOperation.arrFor(1)){
+        for(int i = 0; i != evenFor.length; i++){
             if((i % 2) == 0){
-                System.out.print(i + " ");
+                System.out.print(evenFor[i] + " ");
             }
         }
         System.out.println("]");
@@ -71,6 +73,6 @@ public class Main {
 
         //4. Change the sign of all odd array elements.
         System.out.println("Inversion of odd array elements: ");
-        System.out.println(Arrays.toString(arrayOperation.arrFor(0)));
+        System.out.println(Arrays.toString(arrayOperation.arrInvertionOddNumbers()));
     }
 }

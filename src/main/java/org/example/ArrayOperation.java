@@ -56,4 +56,13 @@ public class ArrayOperation {
         }
         return sum;
     }
+
+    public int[] arrInvertionOddNumbers(){
+        for(int i = 0; i != mineArray.length; i++){
+            if(mineArray[i] % 2 == 1){
+                mineArray[i] *= -1;
+            }
+        }
+        return mineArray;
+    }
 }
