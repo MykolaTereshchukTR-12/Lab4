@@ -48,4 +48,12 @@ public class ArrayOperation {
         }
         return mineArray;
     }
+
+    public int arrSum(){
+        int sum = 0;
+        for(int i : mineArray){
+            sum += i;
+        }
+        return sum;
+    }
 }
