@@ -32,6 +32,7 @@ public class Main {
         System.out.println(Arrays.toString(arrayOperation.arrFor(scanner.nextInt())));
 
         //Task 2.3. Looping through the array with the while() loop and displaying numbers with an odd array number on the screen.
+        System.out.println("Looping through an array with a while() loop:");
         arrayOperation.setMineArray(array);
         System.out.print("[ ");
         for(int i : arrayOperation.arrWhile()){
@@ -42,6 +43,7 @@ public class Main {
         System.out.println("]");
 
         //Task 2.4. Looping through the array with the for() loop and displaying numbers with an even array number on the screen.
+        System.out.println("Looping through an array with a for() loop.");
         arrayOperation.setMineArray(array);
         System.out.print("[ ");
         for(int i : arrayOperation.arrFor(1)){
@@ -57,8 +59,13 @@ public class Main {
         System.out.println(Arrays.toString(arrayOperation.arrFor(scanner.nextInt())));
 
         //Task 3. Calculate the sum of array elements in a one-dimensional array consisting of n real elements.
+        System.out.println("Well, let's create a new array!");
+        System.out.println("What size will your array be?");
         int[] really = new int[scanner.nextInt()];
-        for(int i = 0; i != really.length; i++) { really[i] = scanner.nextInt(); }
+        System.out.println("Enter the integer elements of the array alternately and with a space)");
+        for(int i = 0; i != really.length; i++) {
+            really[i] = scanner.nextInt();
+        }
         arrayOperation.setMineArray(really);
         System.out.println("Sum of numbers of really array is " + arrayOperation.arrSum());
 
